@@ -1,0 +1,27 @@
+p 
+{
+    color:blue;
+}
+
+header
+{
+    background-color: #00ffaa;
+}
+
+nav
+{
+    border:1px solid #00ffaa;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav h2 {
+    display: none;
+}
+

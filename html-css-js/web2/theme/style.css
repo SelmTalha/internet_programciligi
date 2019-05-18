@@ -1,0 +1,78 @@
+body {
+    font: 12px arial, helvetica, sans-serif;
+}
+
+header {
+    background: #FFCC00;
+    height: 100px;
+}
+
+footer {
+    background: #FFCC00;
+    height: 20px;
+}
+
+nav {
+    height: 20px;
+    border: 1px solid #000000;
+    margin-top:5px;
+}
+
+h1 {
+    font-size:15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+aside {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000000; 
+    margin:5px 10px 5px 0;
+    padding:10px 5px;  
+    box-sizing: border-box;
+    flex:10%;
+  }
+  
+article {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000000; 
+    margin:5px 0;
+    padding:10px 5px;  
+    box-sizing: border-box;
+    flex:60%;
+  }
+/*Ctrl k ve c satırı yorum satırına çevirir. */
+/*Border box : Genişlik ve yükseklik değeri padding ve border değerinide içerir
+  Content Box : Normal kabul halidir.Genişlik ve yükseklik değeri içerik alanını içerir;border 
+  ve padding değerlerini içermez !*/
+
+  /*CSS GRİD !*/
+  /*CSS FLEXBOX !*/
+  /*w3schools.com*/
+  /*csszengarden.com*/
+  /*row yan yana 
+  Column üst üste */ /*Reverse ile ikiside ters çevrilir.*/
+
+  /*JUSTİFY-CONTENT*/
+  /*flex-start:Nesneler kapsayıcının başından başlayarak dizilirler.*/
+  /*space-around:Nesneler arasında eşit boşluklar bırakılır.*/
+  /*space-between:İlk nesne baştan,son nesne sonda olacak şekilde nesneler eşit olarak kapsayıcının içerisinde dizilirler.*/
+  /*center:Nesneler tam ortalı olacak şekilde hizalanır.*/
+  /*flex-end:Son nesne en sağa yaslanacak şekilde hizalanır.*/
+
+  /*ALİGN-İTEMS*/
+  /*flex-start*/
+  /*flex-end:Nesneler kapsayıcının en altından başlayarak yukarı doğru dizilirler.*/
+  /*center*/
+  /*baseline:İlk satırdaki yazı tipi göz önüne alınarak hizalanmaya başlanılır.*/
+  /*strech:Tüm nesneler kapsayıcı yüksekliğine eşit olacak şekilde dizilirler.*/
+  /*article:sayfanın tamamen içeriği */
+  /*aside:
+  /*footer alt metin özelliği*/
+  /*padding:10px 15px ; *10px 5px 10px 5px iki türlüde yazılabilir soldaki kısa kullanımıdır.*/
